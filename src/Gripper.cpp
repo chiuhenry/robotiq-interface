@@ -434,8 +434,3 @@ string Gripper::getFaultMsg(void) const{
 
 return msg;
 }
-
-
-
-
-
