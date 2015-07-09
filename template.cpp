@@ -25,7 +25,7 @@ int main() {
 	Gripper gripper;
 	pthread_t com=launch(&gripper,Com); //!<start communication
 	pthread_t fault=launch(&gripper,Fault); //!<start fault monitoring
-
+	
 	//!Connect
 	while(!gripper.isConnected())
 	{
